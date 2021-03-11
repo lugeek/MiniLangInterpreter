@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.lugeek.minilanginterpreter.sample.EnterEditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:gravity="left|top"
+        android:background="#FF333333"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:inputType="textMultiLine"
+        android:imeOptions="actionNone"
+        android:hint="please input code ..."
+        android:textColorHint="@color/white"
+        android:textCursorDrawable="@color/white" />
+
+</FrameLayout>
